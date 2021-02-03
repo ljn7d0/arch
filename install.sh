@@ -1,6 +1,6 @@
 systemctl stop reflector.service;
 timedatectl set-ntp true;
-vim /etc/pacman.d/mirrorlist
+vim /etc/pacman.d/mirrorlist;
 mkfs.ext4  /dev/sda3;
 mkfs.ext4  /dev/sdb1;
 mkfs.vfat -F32 /dev/sda2;
