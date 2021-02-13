@@ -1,0 +1,14 @@
+systemctl stop reflector.service;
+timedatectl set-ntp true;
+vim /etc/pacman.d/mirrorlist;
+mkfs.ext4  /dev/sda3;
+mkfs.vfat -F32 /dev/sda1;
+mkswap -f /dev/sda2;
+swapon /dev/sda2;
+mount /dev/sda3  /mnt;
+mkdir /mnt/home;
+mkdir /mnt/boot;
+mount /dev/sda1 /mnt/boot;
+pacstrap /mnt base base-devel linux linux-firmware dhcpcd vim sudo;
+genfstab -U /mnt > /mnt/etc/fstab;
+arch-chroot /mnt;
