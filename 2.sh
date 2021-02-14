@@ -15,7 +15,7 @@ vim /etc/pacman.conf;
 pacman -Syyu;
 pacman -S archlinuxcn-keyring;
 pacman -S ungoogled-chromium yay xorg-server xorg-xinit xorg-apps;
-pacman -S fcitx5-im fcitx5-rime fcitx5-pinyin-moegirl-rime fcitx5-pinyin-zhwiki-rime;
+pacman -S fcitx-im fcitx-rime fcitx-configtool;
 pacman -S feh alacritty qv2ray v2ray;
 pacman -S mesa lib32-mesa vulkan-intel lib32-vulkan-intel;
 pacman -S nvidia lib32-nvidia-utils nvidia-prime numlockx upower;
