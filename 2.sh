@@ -18,4 +18,4 @@ pacman -S ungoogled-chromium yay xorg-server xorg-xinit xorg-apps;
 pacman -S fcitx-im fcitx-rime fcitx-configtool;
 pacman -S feh alacritty qv2ray v2ray;
 pacman -S mesa lib32-mesa vulkan-intel lib32-vulkan-intel;
-pacman -S nvidia lib32-nvidia-utils nvidia-prime numlockx upower;
+pacman -S nvidia lib32-nvidia-utils nvidia-prime numlockx upower electron-netease-cloud-music;
