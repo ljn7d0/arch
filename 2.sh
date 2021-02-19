@@ -14,7 +14,7 @@ vim /etc/sudoers;
 vim /etc/pacman.conf;
 pacman -Syyu;
 pacman -S archlinuxcn-keyring;
-pacman -S ungoogled-chromium yay xorg-server xorg-xinit xorg-apps;
+pacman -S chromium yay xorg-server xorg-xinit xorg-apps;
 pacman -S fcitx-im fcitx-rime fcitx-configtool;
 pacman -S feh alacritty qv2ray v2ray;
 pacman -S mesa lib32-mesa vulkan-intel lib32-vulkan-intel;
